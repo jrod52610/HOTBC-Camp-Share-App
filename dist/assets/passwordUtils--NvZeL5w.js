@@ -1,0 +1,1 @@
+const a=()=>{const t="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*";let e="";for(let o=0;o<12;o++){const r=Math.floor(Math.random()*t.length);e+=t[r]}return e};export{a as generateTemporaryPassword};
